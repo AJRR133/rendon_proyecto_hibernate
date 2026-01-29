@@ -16,7 +16,12 @@
        <property name="hibernate.show_sql">true</property>
        <property name="hibernate.format_sql">true</property>
        <!-- Entidades -->
-		<mapping class="Hibernate.modelo.Reunion"/>
+		<mapping class="modelo.Entrenador"/>
+		<mapping class="modelo.Equipo"/>
+		<mapping class="modelo.Juego"/>
+		<mapping class="modelo.Jugador"/>
+		<mapping class="modelo.Patrocinador"/>
+		<mapping class="modelo.Periferico"/>
 
    </session-factory>
 </hibernate-configuration>
