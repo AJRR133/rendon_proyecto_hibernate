@@ -65,7 +65,7 @@ public class Patrocinador {
 
 	@Override
 	public String toString() {
-		return "Patrocinador [idPatrocinador=" + idPatrocinador + ", marca=" + marca + ", equipos=" + equipos + "]";
+		return "Patrocinador [idPatrocinador=" + idPatrocinador + ", marca=" + marca + "]";
 	}
 
 	public Patrocinador(Long idPatrocinador, String marca, List<Equipo> equipos) {

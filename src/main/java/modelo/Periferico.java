@@ -63,7 +63,7 @@ public class Periferico {
 
 	@Override
 	public String toString() {
-		return "Periferico [idPeriferico=" + idPeriferico + ", modelo=" + modelo + ", jugador=" + jugador + "]";
+		return "Periferico [idPeriferico=" + idPeriferico + ", modelo=" + modelo +  "]";
 	}
 
 	public Periferico(Long idPeriferico, String modelo, Jugador jugador) {

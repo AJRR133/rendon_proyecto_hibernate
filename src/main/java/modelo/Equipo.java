@@ -85,7 +85,7 @@ public class Equipo {
 
 	@Override
 	public String toString() {
-		return "Equipo [idEquipo=" + idEquipo + ", nombre=" + nombre + ", jugadores=" + jugadores + "]";
+		return "Equipo [idEquipo=" + idEquipo + ", nombre=" + nombre + "]";
 	}
 
 	public Equipo(Long idEquipo, String nombre, List<Jugador> jugadores, List<Patrocinador> patrocinadores) {
